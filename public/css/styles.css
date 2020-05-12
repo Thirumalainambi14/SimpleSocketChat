@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+#message-container{
+  width:85%;
+  height:80vh;
+}
+
+#send-container{
+  width:100%;
+  height: 20vh;
+  text-align: center;
+}
+
+#message-input{
+  display: inline-block;
+  font-size:30px;
+  padding:10px 0 10px 10px;
+  width:80%
+}
+
+#send-button{
+  display: block;
+  font-size:25px;
+  width:10%;
+  height: 25%;
+  margin:10px auto;
+  text-align:center;
+}

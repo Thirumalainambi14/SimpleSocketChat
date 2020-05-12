@@ -1,17 +1,26 @@
 {
-  "name": "current-project",
+  "name": "Realtime-Simple-Chat-App",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "start": "nodemon app"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebDevSimplified/Realtime-Simple-Chat-App.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "socket.io": "^2.2.0"
+  "bugs": {
+    "url": "https://github.com/WebDevSimplified/Realtime-Simple-Chat-App/issues"
   },
-  "devDependencies": {
-    "nodemon": "^1.19.0"
+  "homepage": "https://github.com/WebDevSimplified/Realtime-Simple-Chat-App#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0"
   }
 }
